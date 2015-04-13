@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="2000"
+    android:interpolator="@android:anim/linear_interpolator"
+    android:propertyName="x"
+    android:valueFrom="100"
+    android:valueTo="500"
+    android:valueType="floatType" >
+
+</objectAnimator>

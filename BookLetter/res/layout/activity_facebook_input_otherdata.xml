@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/basicgraytwo"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.lewisapp.bookletter.login.FacebookInputOtherdataActivity" >
+
+    <EditText
+        android:id="@+id/editText_nickname"
+        android:layout_width="232dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="55dp"
+        android:background="@color/mywhitecolor"
+        android:ems="10"
+        android:hint="닉네임을 설정해 주세요 ( 최대 6자 )"
+        android:inputType="textPersonName"
+        android:paddingLeft="5dp"
+        android:textColorHint="#60586562"
+        android:textSize="12sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <RadioGroup
+        android:id="@+id/radioGroup_genderradio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radio_male"
+            android:layout_width="111dp"
+            android:layout_height="42dp"
+            android:background="@drawable/selector_button_basicwhiteoragne"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="남자"
+            android:textColor="#60566562"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/radio_female"
+            android:layout_width="111dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/selector_button_basicwhiteoragne"
+            android:button="@null"
+            android:gravity="center"
+            android:text="여자"
+            android:textColor="#60566562"
+            android:textSize="12sp" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_marginTop="10dp" >
+
+        <CheckBox
+            android:id="@+id/checkBox_notice"
+                    android:layout_width="18dp"
+            android:layout_height="wrap_content"
+            android:button="@drawable/signupcheck" />
+
+        <TextView
+            android:id="@+id/textView_notice1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:text="이용약관"
+            android:textColor="@color/basicgreen"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 및  "
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textView_notice2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="개인정보 취급방침"
+            android:textColor="@color/basicgreen"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="에 동의합니다."
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_signup"
+        android:layout_width="232dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/minbutton_selector"
+        android:text="가입하기"
+        android:textColor="@color/mywhitecolor"
+        android:textSize="13sp" />
+
+</LinearLayout>

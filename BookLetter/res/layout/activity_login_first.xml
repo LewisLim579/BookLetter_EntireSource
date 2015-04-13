@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/laucherscreen"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.lewisapp.bookletter.login.LoginFirstActivity" >
+
+    <ImageButton
+        android:id="@+id/button_login_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:background="@null"
+        android:src="@drawable/login_email" />
+
+    <ImageButton
+        android:id="@+id/button_login_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:src="@drawable/login_facebook" />
+
+</LinearLayout>

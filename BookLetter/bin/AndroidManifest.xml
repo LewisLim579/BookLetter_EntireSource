@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lewisapp.bookletter"
+    android:versionCode="7"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.lewisapp.bookletter.permission.C2D_MESSAGE" />
+
+    <permission
+        android:name="com.lewisapp.bookletter.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <meta-data
+        android:name="com.facebook.sdk.ApplicationId"
+        android:value="@string/app_id" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/bookletter_launchericon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:uiOptions="splitActionBarWhenNarrow" >
+        <activity
+            android:name=".main.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".login.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme.NoTitleBar.SplashWindow" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".requestreview.RequestWriteActivity"
+            android:label="@string/title_activity_request_write"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".login.LoginFirstActivity"
+            android:label="로그인"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme.NoTitleBar.SplashWindow" >
+        </activity>
+        <activity
+            android:name=".requestreview.RequestReadActivity"
+            android:label="요청글"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".readreview.ShowReviewActivity"
+            android:label="리뷰보기"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".login.SignupActivity"
+            android:label="회원가입"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".login.FindPasswordActivity"
+            android:label="비밀번호 찾기"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".writereview.WriteReviewActivity"
+            android:label="리뷰쓰기"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".otheruserreviewlist.OtherReviewListActivity"
+            android:label="다른사람의 리뷰보기"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".login.EmailLoginActivity"
+            android:label="이메일 로그인"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".setting.SettingMainActivity"
+            android:label="설정"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".login.FacebookInputOtherdataActivity"
+            android:label="페이스북 회원가입"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+
+        <activity
+            android:name=".readreview.ReviewDetailModifyActivity"
+            android:label="리뷰수정"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <receiver
+            android:name=".GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.lewisapp.bookletter" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".GcmIntentService" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.lewisapp.bookletter.event.EventActivity"
+            android:label="이벤트/공지"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

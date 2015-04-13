@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.lewisapp.bookletter.ShowReviewActivity" >
+<!-- 
+    <item
+        android:id="@+id/item_write"
+        android:icon="@drawable/mywrite_menusearch"
+        android:orderInCategory="102"
+        android:title="글쓰기"
+        app:showAsAction="ifRoom">
+    </item>
+ -->
+</menu>

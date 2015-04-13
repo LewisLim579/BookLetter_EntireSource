@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/item_search"
+        android:icon="@drawable/myzoom"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:orderInCategory="102"
+        android:title="검색"
+        app:showAsAction="ifRoom|collapseActionView">
+    </item>
+    <item
+        android:id="@+id/item_write"
+        android:icon="@drawable/mywrite_menusearch"
+        android:orderInCategory="103"
+        android:title="글쓰기"
+        app:showAsAction="ifRoom|collapseActionView">
+    </item>
+
+</menu>

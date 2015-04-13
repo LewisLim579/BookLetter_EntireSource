@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/basicgray"
+    android:orientation="vertical"
+    android:paddingBottom="1dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="1dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:background="@drawable/listpressed_ninepatchselector"
+        android:padding="17dp" >
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_weight="8"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <FrameLayout
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/out_round" >
+
+                    <com.lewisapp.bookletter.library.ImageViewRounded
+                        android:id="@+id/imageView_userimg"
+                        android:layout_width="38dp"
+                        android:layout_height="38dp"
+                        android:layout_gravity="center" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textView_reqtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:textColor="#e6000000"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView_reqwriter_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#b3000000"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/textView_reqcontent"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="5dp"
+                        android:lineSpacingExtra="3sp"
+                        android:maxLines="2"
+                        android:text="왜깨지는걸까..왜깨지는걸까..왜깨지는걸까..왜깨지는걸까..왜깨지는걸까..왜깨지는걸까..왜깨지는걸까..왜깨지는걸까..왜깨지는걸까..왜깨지는걸까..왜깨지는걸까..왜깨지는걸까..왜깨지는걸까.."
+                        android:textColor="#99000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imageView_lettericon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/letterimg_nothing" />
+
+
+            <TextView
+                android:id="@+id/textView_answercount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="답글 수"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="17sp" />
+     
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

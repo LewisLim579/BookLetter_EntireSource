@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="letterhave">#ff3a3a</color>
+    <color name="letternothing">#707070</color>
+    <color name="mywhitecolor">#FFFFFF</color>
+    <color name="mylistbackwhite">#FAFAFA</color>
+    <color name="myorangeactionbarcolor">#ffbe3d</color>
+    <color name="myorangelightcolor">#fecd61</color>
+    <color name="basicgray">#edecec</color>
+    <color name="basicgraytwo">#f7f6f5</color>
+    <color name="basicgreen">#69e0b2</color>
+    <color name="basictextgray">#60566562</color>
+    <color name="basicmingray">#97b7ab</color>
+    <color name="textunselected">#fce8c0</color>
+    <color name="lewistexcolor">#BB000000</color>
+	<color name="lightblack">#60566562</color>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+   android:background="@drawable/listpressed_selector"
+    android:padding="8dp" >
+
+    <com.lewisapp.bookletter.library.ImageViewRounded
+        android:id="@+id/imageView_bookimg"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:src="@drawable/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView_booktitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="제목 정보 없음"
+            android:textColor="#4d4c4c"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/textView_bookautor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="저자 정보 없음"
+            android:textColor="#704d4c4c"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+</LinearLayout>

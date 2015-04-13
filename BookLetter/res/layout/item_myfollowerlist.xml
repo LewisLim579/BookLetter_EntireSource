@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/basicgray"
+    android:orientation="vertical"
+
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+ >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:background="@drawable/listpressed_ninepatchselector"
+        android:orientation="horizontal"
+        android:padding="16dp" >
+
+        <FrameLayout
+            android:layout_width="54dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="54dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/out_round" >
+
+            <com.lewisapp.bookletter.library.ImageViewRounded
+                android:id="@+id/imageView_otheruserimg"
+                android:layout_width="51dp"
+                android:layout_height="51dp"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView_userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#e6000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView_followercount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#99000000"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView_reviewcount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#99000000"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/imageButton_deletefollower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@null"
+            android:focusable="false"
+            android:src="@drawable/followerselector" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,8 +1,9 @@
 # cache for current jar dependency. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1419562402000 995624 3e4e879d0b3dc11f2feb3f55e77e3b5bd82c4a28 F:\Dropbox\devlewis\TacademyProjectBookLetter\HorizontalVariableListView\libs\android-support-v4.jar
-1419594802000 995624 3e4e879d0b3dc11f2feb3f55e77e3b5bd82c4a28 F:\Dropbox\devlewis\TacademyProjectBookLetter\appcompat_v7\libs\android-support-v4.jar
-1419562402000 995624 3e4e879d0b3dc11f2feb3f55e77e3b5bd82c4a28 F:\Dropbox\devlewis\TacademyProjectBookLetter\AndroidPullToRefreshLibrary\libs\android-support-v4.jar
-1419562402000 995624 3e4e879d0b3dc11f2feb3f55e77e3b5bd82c4a28 F:\Dropbox\devlewis\TacademyProjectBookLetter\FacebookSDK\libs\android-support-v4.jar
-1419562402000 995624 3e4e879d0b3dc11f2feb3f55e77e3b5bd82c4a28 F:\Dropbox\devlewis\TacademyProjectBookLetter\BookLetter\libs\android-support-v4.jar
+1419562402000 995624 3e4e879d0b3dc11f2feb3f55e77e3b5bd82c4a28 E:\lewisgit\BookLetter\libs\android-support-v4.jar
+1420571852000 995624 3e4e879d0b3dc11f2feb3f55e77e3b5bd82c4a28 E:\lewisgit\slidingmenuSupportV7library\libs\android-support-v4.jar
+1419562402000 995624 3e4e879d0b3dc11f2feb3f55e77e3b5bd82c4a28 E:\lewisgit\FacebookSDK\libs\android-support-v4.jar
+1419594802000 995624 3e4e879d0b3dc11f2feb3f55e77e3b5bd82c4a28 E:\lewisgit\appcompat_v7\libs\android-support-v4.jar
+1419562402000 995624 3e4e879d0b3dc11f2feb3f55e77e3b5bd82c4a28 E:\lewisgit\AndroidPullToRefreshLibrary\libs\android-support-v4.jar
+1419562402000 995624 3e4e879d0b3dc11f2feb3f55e77e3b5bd82c4a28 E:\lewisgit\HorizontalVariableListView\libs\android-support-v4.jar
